@@ -1,5 +1,5 @@
 [project]
-name = "arxiv-mcp"
+name = "arxiv-mcpserver"
 version = "1.0.0"
 description = "Production-ready MCP server for searching and retrieving academic papers from arXiv.org"
 readme = "README.md"
@@ -52,13 +52,13 @@ dev = [
 ]
 
 [project.scripts]
-arxiv-mcp = "server:main"
+arxiv-mcpserver = "server:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/arxiv-mcp-server"
-Documentation = "https://github.com/yourusername/arxiv-mcp-server#readme"
-Repository = "https://github.com/yourusername/arxiv-mcp-server.git"
-Issues = "https://github.com/yourusername/arxiv-mcp-server/issues"
+Homepage = "https://github.com/yourusername/arxiv-mcpserver"
+Documentation = "https://github.com/yourusername/arxiv-mcpserver#readme"
+Repository = "https://github.com/yourusername/arxiv-mcpserver.git"
+Issues = "https://github.com/yourusername/arxiv-mcpserver/issues"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]

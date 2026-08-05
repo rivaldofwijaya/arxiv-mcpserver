@@ -1,4 +1,4 @@
-# arXiv MCP Server
+# arxiv-mcpserver
 
 An MCP (Model Context Protocol) server that provides tools for searching and retrieving academic papers from arXiv.org.
 
@@ -21,8 +21,8 @@ All tools support dual output formats (JSON for machines, Markdown for humans) a
 
 ```bash
 # Clone the repository
-git clone https://github.com/rivaldofwijaya/arxiv-mcp-server.git
-cd arxiv-mcp-server
+git clone https://github.com/rivaldofwijaya/arxiv-mcpserver.git
+cd arxiv-mcpserver
 
 # Install dependencies
 pip install -r requirements.txt
@@ -47,9 +47,9 @@ Add this to your Claude Desktop config file:
 ```json
 {
   "mcpServers": {
-    "arxiv": {
+    "arxiv-mcpserver": {
       "command": "python",
-      "args": ["/absolute/path/to/arxiv-mcp-server/server.py"]
+      "args": ["/absolute/path/to/arxiv-mcpserver/server.py"]
     }
   }
 }
@@ -62,9 +62,9 @@ Add the same configuration to your MCP settings:
 ```json
 {
   "mcpServers": {
-    "arxiv": {
+    "arxiv-mcpserver": {
       "command": "python",
-      "args": ["/absolute/path/to/arxiv-mcp-server/server.py"]
+      "args": ["/absolute/path/to/arxiv-mcpserver/server.py"]
     }
   }
 }
@@ -77,9 +77,9 @@ Configure your Codex MCP settings to include the arXiv server:
 ```json
 {
   "mcpServers": {
-    "arxiv": {
+    "arxiv-mcpserver": {
       "command": "python",
-      "args": ["/path/to/arxiv-mcp-server/server.py"]
+      "args": ["/path/to/arxiv-mcpserver/server.py"]
     }
   }
 }
@@ -246,7 +246,7 @@ python scripts/test_server_local.py
 ## Project Structure
 
 ```
-arxiv-mcp-server/
+arxiv-mcpserver/
 ├── server.py                      # Main MCP server
 ├── requirements.txt               # Dependencies
 ├── LICENSE                        # MIT License

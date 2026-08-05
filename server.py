@@ -26,13 +26,13 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-logger = logging.getLogger("arxiv_mcp")
+logger = logging.getLogger("arxiv-mcpserver")
 
 def _log_debug(msg: str):
     logger.debug(msg)
 
 # Initialize the MCP server
-mcp = FastMCP("arxiv_mcp")
+mcp = FastMCP("arxiv-mcpserver")
 
 # Constants
 API_BASE_URL = "https://export.arxiv.org/api/query"

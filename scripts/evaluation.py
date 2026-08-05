@@ -270,7 +270,7 @@ async def run_evaluation(
         base_url="https://openrouter.ai/api/v1",
         api_key=api_key,
         default_headers={
-            "X-Title": "Arxiv MCP Server Evaluation",
+            "X-Title": "arxiv-mcpserver Evaluation",
             "HTTP-Referer": "https://github.com/google-deepmind/antigravity"
         }
     )
