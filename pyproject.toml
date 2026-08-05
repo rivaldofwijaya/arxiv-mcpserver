@@ -55,10 +55,10 @@ dev = [
 arxiv-mcpserver = "server:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/arxiv-mcpserver"
-Documentation = "https://github.com/yourusername/arxiv-mcpserver#readme"
-Repository = "https://github.com/yourusername/arxiv-mcpserver.git"
-Issues = "https://github.com/yourusername/arxiv-mcpserver/issues"
+Homepage = "https://github.com/rivaldofwijaya/arxiv-mcpserver"
+Documentation = "https://github.com/rivaldofwijaya/arxiv-mcpserver#readme"
+Repository = "https://github.com/rivaldofwijaya/arxiv-mcpserver.git"
+Issues = "https://github.com/rivaldofwijaya/arxiv-mcpserver/issues"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
